@@ -1,4 +1,3 @@
-
 'use client'
 import { useEffect, useState } from "react";
 import styles from "./page.module.css";
@@ -7,9 +6,8 @@ export default function Afis() {
     let [nome, setNome] = useState(undefined)
 
     let [consultas, setConsultas] = useState([])
-  
-    const [mostrar, setMostrar] = useState(false);
 
+    const [mostrar, setMostrar] = useState(false);
     const [busca, setBusca] = useState('');
     const nomi = consultas.filter((consulta) => (consulta.medico.toLowerCase().includes(busca.toLowerCase())));
     const noms = consultas.filter((consulta) => (consulta.paciente.toLowerCase().includes(busca.toLowerCase())));
