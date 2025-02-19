@@ -104,3 +104,12 @@
     overflow-y: auto;
   }
   
+  
+.li{
+    list-style-type: none;  
+}
+
+
+.main{
+  margin-top: 1%;
+}
