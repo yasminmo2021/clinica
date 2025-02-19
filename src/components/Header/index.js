@@ -15,35 +15,71 @@ const Header = () => {
     <header className={styles.header}>
 
       <div className={styles.logo}>
-        <Image className={styles.img} src="/images/logo.jpg" alt="Logo"  width={50} height={80}/>
-        <h1 className={styles.h1}>Voleibol</h1>
+        <Image className={styles.img} src="/images/logo.png" alt="Logo"  width={50} height={80}/>
+        <h1 className={styles.h1}>Clínica Dom da Vida</h1>
       </div>
 
       {isMenuOpen &&
         <nav className={`${styles.nav} ${isMenuOpen ? styles.open : ''}`}>
           <ul className={styles.lista}>
-            <li>
-              <Link className={styles.link} href='/'>Home</Link>
+            <li className={styles.link}>
+              <Link href="/" className={`${styles.Link}`}>Home</Link>
             </li>
 
-            <li>
-              <Link className={styles.link} href="/sobre">Sobre</Link>
+            <li className={styles.link}>
+              <Link href="/medico">Médicos</Link>
+              <ul className={styles.ul_medico}>
+                <li className={styles.link}>
+                  <a href="/medico">Listar</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Adicionar</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Editar</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Excluir</a>
+                </li>
+              </ul>
             </li>
 
-            <li>
-              <Link className={styles.link} href="/lista">Lista</Link>
+            <li className={styles.link}>
+              <Link href="/paciente">Pacientes</Link>
+              <ul className={styles.ul_medico}>
+                <li className={styles.link}>
+                  <a href="/paciente">Listar</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Adicionar</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Editar</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Excluir</a>
+                </li>
+              </ul>
             </li>
 
-            <li>
-              <Link className={styles.link} href="/props">Props</Link>
+            <li className={styles.link}>
+              <Link href="/agendamento">Agendamento</Link>
+              <ul className={styles.ul_medico}>
+                <li className={styles.link}>
+                  <a href="/agendamento">Listar Consultas</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Agendar Consultas</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Editar Agendamento</a>
+                </li>
+                <li className={styles.link}>
+                  <a href="#">Cancelar</a>
+                </li>
+              </ul>
             </li>
 
-            <li>
-              <Link className={styles.link} href="/filtro">Filtro</Link>
-            </li>
-            <li>
-              <Link className={styles.link} href="/efeitos">Efeitos</Link>
-            </li>
           </ul>
         </nav>
       }

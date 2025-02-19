@@ -35,8 +35,14 @@ a {
   text-decoration: none;
 }
 
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+h1{
+  text-align: center;
+  color: rgba(31, 37, 37, 0.649);
+  font-size: 2.5rem;
 }

@@ -1,0 +1,106 @@
+.buttonMedic{
+    background-color:#f1dfc4;
+    color:rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  
+  }
+.h2{
+    text-align: center;
+  }
+.tabela_medic{
+    width: 100%;
+    color:#000000;
+    border-collapse: collapse;
+    background-color: #f1dfc4;
+    cursor: pointer;
+    border: solid rgb(0, 0, 0);
+    max-width: 6 00px;
+  
+   
+  }
+  
+.th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    border: 2px solid rgb(0, 0, 0);
+    color: #000000;
+  }
+.td{
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+   
+  }
+.thead{
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: rgb(255, 255, 255);
+  }
+.tabela_medic tr{
+    display: table-row;
+  
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+   
+    border: 2px solid white ;
+  
+    
+  }
+.tbdoy{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: rgb(255, 255, 255);
+    max-width: 900px;
+  
+    
+  }
+.medicos_conteinar{
+    padding: 20px;
+    max-width: 900px;
+  
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #000000;
+  
+  }
+  
+.tabelaContainer {
+    width: 100%;
+    overflow-x: auto;
+  }
+.botao{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+.selecione{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+    text-align: center;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
