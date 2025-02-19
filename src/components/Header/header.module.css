@@ -109,8 +109,8 @@
   flex-direction: column;
   position: absolute;
   left: 10px;
-  background-color: #e7dccb;
-  color: #e7dccb;
+  background-color: #333;
+  color: #fff;
   /* min-width: 160px; */
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
   /* z-index: 1; */;
