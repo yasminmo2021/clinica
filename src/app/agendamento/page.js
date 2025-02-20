@@ -34,8 +34,6 @@ export default function Afis() {
         <main className={styles.main}>
             <div className={styles.medicos_conteinar}>
                 <h2 className={styles.h2}>Lista de Consultas</h2>
-                
-                {/* Botão para filtro por Médico */}
                 <button 
                     className={styles.buttonMedic}
                     onClick={() => setMostrarMedico(!mostrarMedico)}
@@ -61,8 +59,6 @@ export default function Afis() {
                         </div>
                     </div>
                 )}
-                
-                {/* Botão para filtro por Paciente */}
                 <button 
                     className={styles.buttonMedic}
                     onClick={() => setMostrarPaciente(!mostrarPaciente)}
@@ -88,8 +84,6 @@ export default function Afis() {
                         </div>
                     </div>
                 )}
-
-                {/* Tabela de Consultas */}
                 <div className={styles.tabela_Container}>
                     <table className={styles.tabela_medic}>
                         <thead className={styles.thead}>
