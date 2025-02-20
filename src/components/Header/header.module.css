@@ -118,6 +118,14 @@
   position: relative;
   list-style: none;
   min-width: max-content;
+  margin-right: 5px;
+  list-style: none;
+  position: absolute;
+  top: 10px; 
+  left: 0;
+  padding: 5px;
+  border-radius: 5px;
+
 }
 
 .l {
